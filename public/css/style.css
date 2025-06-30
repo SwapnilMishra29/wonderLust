@@ -1,0 +1,173 @@
+body {
+ font-family: 'Plus Jakarta Sans, sans-serif' !important;   
+ display: flex !important;;
+ flex-wrap: wrap;
+ flex-direction: column !important;;
+ min-height: 100vh !important;
+}
+.container {
+    padding-top: 2rem;
+}
+.navbar {
+  height: 5rem;
+  background: white;
+  
+}
+.navbar-collapse {
+  position: static !important;
+  background: white;
+}
+
+/* Ensure main content is pushed down */
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222
+    !important;
+
+}
+.nav-link:hover {
+    text-decoration: underline !important;
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222; 
+}
+.f-info-links a:hover{
+    text-decoration:underline;
+}
+.f-info-links ,
+.f-info-socials ,
+.f-info-brand {
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.f-info-socials i {
+    margin-left: 1rem;
+    margin-left: 1rem;
+}
+
+.f-info {
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.listing-card {
+    border: none !important ;
+    margin: 1rem;
+
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 0 !important;
+
+
+}
+.card-text {
+    font-weight: 400 !important;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+/* Card Effects */
+.card-img-overlay {
+    opacity: 0;
+}
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+.add {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Edit page */
+
+.show-page , 
+.show-page *::before,
+.show-page *::after,
+.show-page *{
+    box-sizing: content-box !important;
+}
+
+.edit-page , 
+.edit-page *::before,
+.edit-page *::after,
+.edit-page *{
+    box-sizing: content-box !important;
+}
+
+.edit-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+    margin-right: 2px;
+    width: 10px;
+}
+
+.edit {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 10px;
+}
+
+
+/* Show page */
+
+.responsive-img {
+    height:  auto !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    /* aspect-ratio: 4/3 !important; */
+    border-radius: 1rem !important;
+}
+
+
+@media (max-width: 350px) {
+  .responsive-img {
+    width: 20vh !important;
+    height: 15vh !important;
+  }
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;;
+}
+
+.review-card {
+    height: 20vh !important;
+    width: 50vh !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+
+}
+
+
+
+
+
